@@ -2,8 +2,6 @@
 
 An AI-powered web application that analyzes a candidate's resume against required job skills and identifies **matching skills, missing skills, and an overall resume match percentage**.
 
-The project helps students and job seekers understand how well their resume matches a job requirement and what skills they should improve.
-
 ## 🚀 Features
 
 * 📄 Upload and analyze a resume
@@ -12,40 +10,21 @@ The project helps students and job seekers understand how well their resume matc
 * ✅ Identify matching skills
 * ❌ Identify missing skills
 * 📊 Calculate resume match percentage
-* 💡 Helps candidates identify skill gaps
-* 🌐 Simple and interactive web interface
+* 💡 Identify skill gaps
+* 🌐 Interactive Streamlit web interface
 
 ## 🛠️ Technologies Used
 
-* **Python**
-* **Streamlit**
-* **Pandas**
-* **NumPy**
-* **Scikit-learn**
-* **Natural Language Processing (NLP)**
-* **Machine Learning**
-* **Git & GitHub**
+* Python
+* Streamlit
+* Pandas
+* NumPy
+* Scikit-learn
+* Natural Language Processing (NLP)
+* Machine Learning
+* Git & GitHub
 
-## 📂 Project Structure
-
-```text
-AI-Resume-Scanner/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-│
-├── data/
-│   └── skills.csv
-│
-├── models/
-│   └── model files
-│
-└── assets/
-    └── screenshots/
-```
-
-## ⚙️ How to Run the Project
+## ⚙️ How to Run
 
 ### 1. Clone the Repository
 
@@ -59,7 +38,7 @@ git clone https://github.com/your-username/AI-Resume-Scanner.git
 cd AI-Resume-Scanner
 ```
 
-### 3. Install Required Libraries
+### 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -71,7 +50,17 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-The application will open in your browser.
+### 5. Open the Application
+
+After running the command, open the following URL in your browser:
+
+**http://localhost:8501**
+
+or
+
+**http://127.0.0.1:8501**
+
+> 💡 **Note:** `localhost:8501` is the local address used by Streamlit when the application is running on your computer.
 
 ## 📊 How It Works
 
@@ -89,60 +78,61 @@ Matching Skills + Missing Skills
 Resume Match Percentage
 ```
 
-## 💡 Example
+## 💡 Example Output
 
-### Matching Skills
+### ✅ Matching Skills
 
 ```text
 Python
+Java
 SQL
 Machine Learning
+Deep Learning
 Pandas
 NumPy
 Scikit-learn
-```
-
-### Missing Skills
-
-```text
-Deep Learning
 TensorFlow
 PyTorch
-JavaScript
 ```
 
-### Resume Match
+### ❌ Missing Skills
+
+```text
+Skills required by the job
+but not found in the resume
+```
+
+### 📊 Resume Match
 
 ```text
 75%
 ```
 
-This allows candidates to quickly understand the skills they already have and the skills they may need to develop.
-
 ## 🎯 Project Objective
 
-The main objective of this project is to use **Artificial Intelligence and Machine Learning** to make resume analysis easier and help candidates identify skill gaps for their target jobs.
+The objective of this project is to use **Artificial Intelligence and Machine Learning** to analyze resumes, compare candidate skills with job requirements, and help identify skill gaps.
 
 ## 🔮 Future Improvements
 
-* Add multiple job-role comparisons
-* Improve NLP-based skill extraction
-* Add resume recommendations
-* Add ATS compatibility analysis
-* Support multiple resume formats
-* Add job-description matching
-* Provide personalized learning recommendations
+* ATS compatibility analysis
+* Job description matching
+* Multiple job-role comparison
+* Improved NLP-based skill extraction
+* Resume improvement recommendations
+* Multiple resume format support
+* Personalized learning recommendations
 
 ## 👨‍💻 Author
 
 **Bhagirath Chaudhary**
 
-B.Tech – Artificial Intelligence & Machine Learning
+**B.Tech – Artificial Intelligence & Machine Learning**
 
-### 📌 Skills
+### Skills
 
 Python • Machine Learning • Artificial Intelligence • SQL • Pandas • NumPy • Scikit-learn • Git • GitHub
 
 ---
 
 ⭐ **If you find this project useful, consider giving it a star!**
+
